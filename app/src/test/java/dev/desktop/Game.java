@@ -8,6 +8,7 @@ public class Game {
         String answer = ask("Create a new player? Y, n");
         if ("Y".equals(answer)) {
             answer = ask("Enter your player number, 1 - 456");
+            player n = new player(Integer.parseInt(answer));
             //todo implement checking of number
         }
     }
