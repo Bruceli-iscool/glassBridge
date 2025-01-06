@@ -5,4 +5,7 @@ public class player {
     public player(int number) {
         num = number;
     }
+    public void start() {
+
+    }
 }
